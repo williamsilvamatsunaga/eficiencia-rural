@@ -1,0 +1,241 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\willi\\Desktop\\IFRO\\Programa\u00E7\u00E3o com acesso ao banco de dados\\eficiencia-rural\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CEF2FB0D-DDD4-40FA-8C12-45FC0E2155F6}|eficiencia-rural.csproj|c:\\users\\willi\\desktop\\ifro\\programa\u00E7\u00E3o com acesso ao banco de dados\\eficiencia-rural\\controllers\\propriedadeinsumocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEF2FB0D-DDD4-40FA-8C12-45FC0E2155F6}|eficiencia-rural.csproj|solutionrelative:controllers\\propriedadeinsumocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEF2FB0D-DDD4-40FA-8C12-45FC0E2155F6}|eficiencia-rural.csproj|c:\\users\\willi\\desktop\\ifro\\programa\u00E7\u00E3o com acesso ao banco de dados\\eficiencia-rural\\controllers\\insumocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEF2FB0D-DDD4-40FA-8C12-45FC0E2155F6}|eficiencia-rural.csproj|solutionrelative:controllers\\insumocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEF2FB0D-DDD4-40FA-8C12-45FC0E2155F6}|eficiencia-rural.csproj|c:\\users\\willi\\desktop\\ifro\\programa\u00E7\u00E3o com acesso ao banco de dados\\eficiencia-rural\\controllers\\producaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEF2FB0D-DDD4-40FA-8C12-45FC0E2155F6}|eficiencia-rural.csproj|solutionrelative:controllers\\producaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEF2FB0D-DDD4-40FA-8C12-45FC0E2155F6}|eficiencia-rural.csproj|c:\\users\\willi\\desktop\\ifro\\programa\u00E7\u00E3o com acesso ao banco de dados\\eficiencia-rural\\controllers\\piquetecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEF2FB0D-DDD4-40FA-8C12-45FC0E2155F6}|eficiencia-rural.csproj|solutionrelative:controllers\\piquetecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEF2FB0D-DDD4-40FA-8C12-45FC0E2155F6}|eficiencia-rural.csproj|c:\\users\\willi\\desktop\\ifro\\programa\u00E7\u00E3o com acesso ao banco de dados\\eficiencia-rural\\controllers\\animalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEF2FB0D-DDD4-40FA-8C12-45FC0E2155F6}|eficiencia-rural.csproj|solutionrelative:controllers\\animalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEF2FB0D-DDD4-40FA-8C12-45FC0E2155F6}|eficiencia-rural.csproj|c:\\users\\willi\\desktop\\ifro\\programa\u00E7\u00E3o com acesso ao banco de dados\\eficiencia-rural\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEF2FB0D-DDD4-40FA-8C12-45FC0E2155F6}|eficiencia-rural.csproj|solutionrelative:controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEF2FB0D-DDD4-40FA-8C12-45FC0E2155F6}|eficiencia-rural.csproj|c:\\users\\willi\\desktop\\ifro\\programa\u00E7\u00E3o com acesso ao banco de dados\\eficiencia-rural\\models\\producao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEF2FB0D-DDD4-40FA-8C12-45FC0E2155F6}|eficiencia-rural.csproj|solutionrelative:models\\producao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEF2FB0D-DDD4-40FA-8C12-45FC0E2155F6}|eficiencia-rural.csproj|c:\\users\\willi\\desktop\\ifro\\programa\u00E7\u00E3o com acesso ao banco de dados\\eficiencia-rural\\models\\propriedadeinsumo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEF2FB0D-DDD4-40FA-8C12-45FC0E2155F6}|eficiencia-rural.csproj|solutionrelative:models\\propriedadeinsumo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEF2FB0D-DDD4-40FA-8C12-45FC0E2155F6}|eficiencia-rural.csproj|c:\\users\\willi\\desktop\\ifro\\programa\u00E7\u00E3o com acesso ao banco de dados\\eficiencia-rural\\models\\piquete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEF2FB0D-DDD4-40FA-8C12-45FC0E2155F6}|eficiencia-rural.csproj|solutionrelative:models\\piquete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEF2FB0D-DDD4-40FA-8C12-45FC0E2155F6}|eficiencia-rural.csproj|c:\\users\\willi\\desktop\\ifro\\programa\u00E7\u00E3o com acesso ao banco de dados\\eficiencia-rural\\models\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEF2FB0D-DDD4-40FA-8C12-45FC0E2155F6}|eficiencia-rural.csproj|solutionrelative:models\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEF2FB0D-DDD4-40FA-8C12-45FC0E2155F6}|eficiencia-rural.csproj|c:\\users\\willi\\desktop\\ifro\\programa\u00E7\u00E3o com acesso ao banco de dados\\eficiencia-rural\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEF2FB0D-DDD4-40FA-8C12-45FC0E2155F6}|eficiencia-rural.csproj|solutionrelative:models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEF2FB0D-DDD4-40FA-8C12-45FC0E2155F6}|eficiencia-rural.csproj|c:\\users\\willi\\desktop\\ifro\\programa\u00E7\u00E3o com acesso ao banco de dados\\eficiencia-rural\\models\\insumo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEF2FB0D-DDD4-40FA-8C12-45FC0E2155F6}|eficiencia-rural.csproj|solutionrelative:models\\insumo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEF2FB0D-DDD4-40FA-8C12-45FC0E2155F6}|eficiencia-rural.csproj|c:\\users\\willi\\desktop\\ifro\\programa\u00E7\u00E3o com acesso ao banco de dados\\eficiencia-rural\\models\\propriedade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEF2FB0D-DDD4-40FA-8C12-45FC0E2155F6}|eficiencia-rural.csproj|solutionrelative:models\\propriedade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PropriedadeInsumoController.cs",
+              "DocumentMoniker": "C:\\Users\\willi\\Desktop\\IFRO\\Programa\u00E7\u00E3o com acesso ao banco de dados\\eficiencia-rural\\Controllers\\PropriedadeInsumoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PropriedadeInsumoController.cs",
+              "ToolTip": "C:\\Users\\willi\\Desktop\\IFRO\\Programa\u00E7\u00E3o com acesso ao banco de dados\\eficiencia-rural\\Controllers\\PropriedadeInsumoController.cs",
+              "RelativeToolTip": "Controllers\\PropriedadeInsumoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T01:26:08.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InsumoController.cs",
+              "DocumentMoniker": "C:\\Users\\willi\\Desktop\\IFRO\\Programa\u00E7\u00E3o com acesso ao banco de dados\\eficiencia-rural\\Controllers\\InsumoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\InsumoController.cs",
+              "ToolTip": "C:\\Users\\willi\\Desktop\\IFRO\\Programa\u00E7\u00E3o com acesso ao banco de dados\\eficiencia-rural\\Controllers\\InsumoController.cs",
+              "RelativeToolTip": "Controllers\\InsumoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T01:25:36.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProducaoController.cs",
+              "DocumentMoniker": "C:\\Users\\willi\\Desktop\\IFRO\\Programa\u00E7\u00E3o com acesso ao banco de dados\\eficiencia-rural\\Controllers\\ProducaoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProducaoController.cs",
+              "ToolTip": "C:\\Users\\willi\\Desktop\\IFRO\\Programa\u00E7\u00E3o com acesso ao banco de dados\\eficiencia-rural\\Controllers\\ProducaoController.cs",
+              "RelativeToolTip": "Controllers\\ProducaoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T01:24:48.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PiqueteController.cs",
+              "DocumentMoniker": "C:\\Users\\willi\\Desktop\\IFRO\\Programa\u00E7\u00E3o com acesso ao banco de dados\\eficiencia-rural\\Controllers\\PiqueteController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PiqueteController.cs",
+              "ToolTip": "C:\\Users\\willi\\Desktop\\IFRO\\Programa\u00E7\u00E3o com acesso ao banco de dados\\eficiencia-rural\\Controllers\\PiqueteController.cs",
+              "RelativeToolTip": "Controllers\\PiqueteController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T01:24:20.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AnimalController.cs",
+              "DocumentMoniker": "C:\\Users\\willi\\Desktop\\IFRO\\Programa\u00E7\u00E3o com acesso ao banco de dados\\eficiencia-rural\\Controllers\\AnimalController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AnimalController.cs",
+              "ToolTip": "C:\\Users\\willi\\Desktop\\IFRO\\Programa\u00E7\u00E3o com acesso ao banco de dados\\eficiencia-rural\\Controllers\\AnimalController.cs",
+              "RelativeToolTip": "Controllers\\AnimalController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T01:23:56.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CategoriaController.cs",
+              "DocumentMoniker": "C:\\Users\\willi\\Desktop\\IFRO\\Programa\u00E7\u00E3o com acesso ao banco de dados\\eficiencia-rural\\Controllers\\CategoriaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CategoriaController.cs",
+              "ToolTip": "C:\\Users\\willi\\Desktop\\IFRO\\Programa\u00E7\u00E3o com acesso ao banco de dados\\eficiencia-rural\\Controllers\\CategoriaController.cs",
+              "RelativeToolTip": "Controllers\\CategoriaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T01:23:28.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PropriedadeInsumo.cs",
+              "DocumentMoniker": "C:\\Users\\willi\\Desktop\\IFRO\\Programa\u00E7\u00E3o com acesso ao banco de dados\\eficiencia-rural\\Models\\PropriedadeInsumo.cs",
+              "RelativeDocumentMoniker": "Models\\PropriedadeInsumo.cs",
+              "ToolTip": "C:\\Users\\willi\\Desktop\\IFRO\\Programa\u00E7\u00E3o com acesso ao banco de dados\\eficiencia-rural\\Models\\PropriedadeInsumo.cs",
+              "RelativeToolTip": "Models\\PropriedadeInsumo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T00:56:28.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Animal.cs",
+              "DocumentMoniker": "C:\\Users\\willi\\Desktop\\IFRO\\Programa\u00E7\u00E3o com acesso ao banco de dados\\eficiencia-rural\\Models\\Animal.cs",
+              "RelativeDocumentMoniker": "Models\\Animal.cs",
+              "ToolTip": "C:\\Users\\willi\\Desktop\\IFRO\\Programa\u00E7\u00E3o com acesso ao banco de dados\\eficiencia-rural\\Models\\Animal.cs",
+              "RelativeToolTip": "Models\\Animal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T00:36:42.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Piquete.cs",
+              "DocumentMoniker": "C:\\Users\\willi\\Desktop\\IFRO\\Programa\u00E7\u00E3o com acesso ao banco de dados\\eficiencia-rural\\Models\\Piquete.cs",
+              "RelativeDocumentMoniker": "Models\\Piquete.cs",
+              "ToolTip": "C:\\Users\\willi\\Desktop\\IFRO\\Programa\u00E7\u00E3o com acesso ao banco de dados\\eficiencia-rural\\Models\\Piquete.cs",
+              "RelativeToolTip": "Models\\Piquete.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T00:46:00.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Producao.cs",
+              "DocumentMoniker": "C:\\Users\\willi\\Desktop\\IFRO\\Programa\u00E7\u00E3o com acesso ao banco de dados\\eficiencia-rural\\Models\\Producao.cs",
+              "RelativeDocumentMoniker": "Models\\Producao.cs",
+              "ToolTip": "C:\\Users\\willi\\Desktop\\IFRO\\Programa\u00E7\u00E3o com acesso ao banco de dados\\eficiencia-rural\\Models\\Producao.cs",
+              "RelativeToolTip": "Models\\Producao.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T00:40:53.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\willi\\Desktop\\IFRO\\Programa\u00E7\u00E3o com acesso ao banco de dados\\eficiencia-rural\\Models\\Categoria.cs",
+              "RelativeDocumentMoniker": "Models\\Categoria.cs",
+              "ToolTip": "C:\\Users\\willi\\Desktop\\IFRO\\Programa\u00E7\u00E3o com acesso ao banco de dados\\eficiencia-rural\\Models\\Categoria.cs",
+              "RelativeToolTip": "Models\\Categoria.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T00:32:44.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Insumo.cs",
+              "DocumentMoniker": "C:\\Users\\willi\\Desktop\\IFRO\\Programa\u00E7\u00E3o com acesso ao banco de dados\\eficiencia-rural\\Models\\Insumo.cs",
+              "RelativeDocumentMoniker": "Models\\Insumo.cs",
+              "ToolTip": "C:\\Users\\willi\\Desktop\\IFRO\\Programa\u00E7\u00E3o com acesso ao banco de dados\\eficiencia-rural\\Models\\Insumo.cs",
+              "RelativeToolTip": "Models\\Insumo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T00:50:36.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Propriedade.cs",
+              "DocumentMoniker": "C:\\Users\\willi\\Desktop\\IFRO\\Programa\u00E7\u00E3o com acesso ao banco de dados\\eficiencia-rural\\Models\\Propriedade.cs",
+              "RelativeDocumentMoniker": "Models\\Propriedade.cs",
+              "ToolTip": "C:\\Users\\willi\\Desktop\\IFRO\\Programa\u00E7\u00E3o com acesso ao banco de dados\\eficiencia-rural\\Models\\Propriedade.cs",
+              "RelativeToolTip": "Models\\Propriedade.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T00:44:17.685Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

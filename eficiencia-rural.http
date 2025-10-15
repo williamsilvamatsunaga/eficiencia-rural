@@ -1,0 +1,6 @@
+@eficiencia_rural_HostAddress = http://localhost:5295
+
+GET {{eficiencia_rural_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
