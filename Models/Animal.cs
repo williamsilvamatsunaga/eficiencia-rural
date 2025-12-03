@@ -18,13 +18,27 @@ namespace eficiencia_rural.Models
         public double Peso { get; set; }
 
 
-        public virtual Categoria? Categoria { get; set; }
+        //public virtual Categoria? Categoria { get; set; }
+        //[Column("fk_id_categoria")]
+        //public int fk_id_categoria { get; set; }
+
+        //public virtual Propriedade? Propriedade { get; set; }
+        //[Column("fk_id_propriedade")]
+        //public int fk_id_propriedade { get; set; }
+
+        // FK ➜ Categoria
         [Column("fk_id_categoria")]
         public int fk_id_categoria { get; set; }
 
-        public virtual Propriedade? Propriedade { get; set; }
+        [ForeignKey("fk_id_categoria")]
+        public virtual Categoria? Categoria { get; set; }
+
+        // FK ➜ Propriedade
         [Column("fk_id_propriedade")]
         public int fk_id_propriedade { get; set; }
+
+        [ForeignKey("fk_id_propriedade")]
+        public virtual Propriedade? Propriedade { get; set; }
 
     }
 }
