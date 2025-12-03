@@ -17,14 +17,14 @@ namespace eficiencia_rural.Models
         [Column("peso_ani")]
         public double Peso { get; set; }
 
-        [Column("id_animal")]
-        public virtual Categoria? Categoria { get; set; }
-        [Column("fk_id_categoria")]
-        public int fk_id_categoria { get; set; }
 
-        public virtual Propriedade? Propriedade { get; set; }
-        [Column("fk_id_propriedade")]
-        public int fk_id_propriedade { get; set; }
+        //public virtual Categoria? Categoria { get; set; }
+        //[Column("fk_id_categoria")]
+        //public int fk_id_categoria { get; set; }
+
+        //public virtual Propriedade? Propriedade { get; set; }
+        //[Column("fk_id_propriedade")]
+        //public int fk_id_propriedade { get; set; }
 
     }
 }
