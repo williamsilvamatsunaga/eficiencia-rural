@@ -31,11 +31,28 @@ namespace eficiencia_rural.Controllers
 
             var animais = await query.Select(a => new
             {
-                a.Indentificacao
+                a.Indentificacao,
+                a.DataNascimento,
+                a.Peso
 
             }).ToListAsync();
 
             return Ok(animais);
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> Remover(int id)
+        {
+            var animal = await _context.Animais.FirstOrDefaultAsync(x => x.Id == id);
+            if (animal is null)
+            {
+                return NotFound();
+            }
+
+            _context.Animais.Remove(animal);
+            await _context.SaveChangesAsync();
+
+            return NoContent();
         }
     }
 }

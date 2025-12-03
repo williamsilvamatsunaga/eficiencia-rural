@@ -5,13 +5,13 @@ using Microsoft.EntityFrameworkCore;
 
 namespace eficiencia_rural.Controllers
 {
-    [Route("categoria")]
+    [Route("propriedade")]
     [ApiController]
-    public class CategoriaController : ControllerBase
+    public class PropriedadeController : ControllerBase
     {
         private readonly AppDbContext _context;
 
-        public CategoriaController(AppDbContext context)
+        public PropriedadeController(AppDbContext context)
         {
             _context = context;
         }
@@ -21,7 +21,7 @@ namespace eficiencia_rural.Controllers
             [FromQuery] string? buscar
             )
         {
-            var query = _context.Categorias.AsQueryable();
+            var query = _context.Propriedades.AsQueryable();
 
             if (buscar is not null)
             {
@@ -30,27 +30,31 @@ namespace eficiencia_rural.Controllers
                 return Ok(query);
             }
 
-            var categorias = await query.Select(c => new
+            var propriedade = await query.Select(u => new
             {
-                c.Nome
+                u.Nome,
+                u.Tamanho,
+                u.Endereco
             }).ToListAsync();
 
-            return Ok(categorias);
+            return Ok(propriedade);
         }
 
         [HttpDelete("{id}")]
         public async Task<IActionResult> Remover(int id)
         {
-            var categoria = await _context.Categorias.FirstOrDefaultAsync(x => x.Id == id);
-            if (categoria is null)
+            var propriedade = await _context.Propriedades.FirstOrDefaultAsync(x => x.Id == id);
+            if (propriedade is null)
             {
                 return NotFound();
             }
 
-            _context.Categorias.Remove(categoria);
+            _context.Propriedades.Remove(propriedade);
             await _context.SaveChangesAsync();
 
             return NoContent();
         }
+
+
     }
 }
