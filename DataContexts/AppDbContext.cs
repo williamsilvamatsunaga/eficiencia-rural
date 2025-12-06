@@ -19,7 +19,16 @@ namespace eficiencia_rural.DataContexts
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            
+            modelBuilder.Entity<Animal>()
+              .HasOne(a => a.Categoria)
+              .WithMany()
+              .HasForeignKey(a => a.fk_id_categoria);
+
+            modelBuilder.Entity<Animal>()
+                .HasOne(a => a.Propriedade)
+                .WithMany()
+                .HasForeignKey(a => a.fk_id_propriedade);
+                
         }
 
     }

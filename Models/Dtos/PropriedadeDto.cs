@@ -7,5 +7,11 @@ namespace eficiencia_rural.Models.Dtos
     {
         [Required(ErrorMessage = "A nome é obrigatório")]
         public required string Nome { get; set; }
+
+        [Required]
+        public double Tamanho { get; set; }
+
+        [Required]
+        public string? Endereco { get; set; }
     }
 }

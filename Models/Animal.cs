@@ -9,7 +9,7 @@ namespace eficiencia_rural.Models
         public int Id { get; set; }
 
         [Column("identificacao_ani")]
-        public string Indentificacao { get; set; }
+        public string Identificacao { get; set; }
 
         [Column("dt_nascimento_ani")]
         public DateTime DataNascimento { get; set; }

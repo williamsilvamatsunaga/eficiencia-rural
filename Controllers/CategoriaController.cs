@@ -32,6 +32,7 @@ namespace eficiencia_rural.Controllers
 
             var categorias = await query.Select(c => new
             {
+                c.Id,
                 c.Nome
             }).ToListAsync();
 

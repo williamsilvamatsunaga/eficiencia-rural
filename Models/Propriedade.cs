@@ -9,13 +9,13 @@ namespace eficiencia_rural.Models
         public int Id { get; set; }
 
         [Column("nome_pro")]
-        public string Nome { get; set; }
+        public string? Nome { get; set; }
 
         [Column("tamanho_pro")]
         public double Tamanho { get; set; }
 
         [Column("endereco_pro")]
-        public string Endereco { get; set; }
+        public string? Endereco { get; set; }
 
         public ICollection<PropriedadeInsumo> PropriedadesInsumos { get; set; } = [];
     }

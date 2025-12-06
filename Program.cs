@@ -1,6 +1,7 @@
 using eficiencia_rural.DataContexts;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.OpenApi.Models;
 using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -13,7 +14,16 @@ builder.Services.AddControllers().AddJsonOptions(o =>
 });
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen(options =>
+{
+    options.SwaggerDoc("v1", new OpenApiInfo
+    {
+        Version = "v1",
+        Title = "API Serviço",
+        Description = "API de consumo para aplicação Gestão de bovinocultura leiteira"
+    });
+ });
+
 
 var connectionString = builder.Configuration.GetConnectionString("default");
 

@@ -1,16 +1,9 @@
-DROP DATABASE eficienciarural;
 CREATE DATABASE eficienciarural;
 USE eficienciarural;
 
-
 CREATE TABLE IF NOT EXISTS categoria (
     id_categoria INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
-    bezerro_cat VARCHAR(50),
-    bezerra_cat VARCHAR(50),
-    novilha_cat VARCHAR(50),
-    garrote_cat VARCHAR(50),
-    vaca_cat VARCHAR(50),
-    touro_cat VARCHAR(50)
+    nome_cat VARCHAR(50)
 );
 
 CREATE TABLE IF NOT EXISTS insumo (
@@ -66,3 +59,18 @@ CREATE TABLE IF NOT EXISTS propriedade_insumo (
     FOREIGN KEY (fk_id_propriedade) REFERENCES propriedade(id_propriedade),
     FOREIGN KEY (fk_id_insumo) REFERENCES insumo(id_insumo)
 );
+
+INSERT INTO categoria(nome_cat) VALUES 
+("bezerro"),
+("bezerra"),
+("novilha"),
+("garrote"),
+("vaca"),
+("touro");
+
+select * from categoria;
+
+
+
+
+

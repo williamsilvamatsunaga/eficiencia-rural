@@ -1,4 +1,6 @@
 ﻿using eficiencia_rural.DataContexts;
+using eficiencia_rural.Models;
+using eficiencia_rural.Models.Dtos;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -38,6 +40,22 @@ namespace eficiencia_rural.Controllers
             }).ToListAsync();
 
             return Ok(propriedade);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Criar([FromBody] PropriedadeDto novaPropriedade)
+        {
+            var propriedade = new Propriedade()
+            {
+                Nome = novaPropriedade.Nome,
+                Tamanho = novaPropriedade.Tamanho,
+                Endereco = novaPropriedade.Endereco,
+            };
+
+            await _context.Propriedades.AddAsync(propriedade);
+            await _context.SaveChangesAsync();
+
+            return Created("",propriedade);
         }
 
         [HttpDelete("{id}")]
