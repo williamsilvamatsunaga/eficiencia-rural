@@ -11,9 +11,6 @@ namespace eficiencia_rural.Models
         [Column("valor_unitario_pro")]
         public double ValorUnitario { get; set; }
 
-        [Column("qtd_vacas_pro")]
-        public int QuantidadeVacas { get; set; }
-
         [Column("data_hora_inicio_pro")]
         public DateTime? DataHoraInicio { get; set; }
 

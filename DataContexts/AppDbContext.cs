@@ -28,7 +28,12 @@ namespace eficiencia_rural.DataContexts
                 .HasOne(a => a.Propriedade)
                 .WithMany()
                 .HasForeignKey(a => a.fk_id_propriedade);
-                
+
+            modelBuilder.Entity<Producao>()
+                .HasOne(a => a.Animal)
+                .WithMany()
+                .HasForeignKey(a => a.fk_id_animal);
+
         }
 
     }
