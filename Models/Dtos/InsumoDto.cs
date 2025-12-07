@@ -10,5 +10,15 @@ namespace eficiencia_rural.Models.Dtos
 
         [Required(ErrorMessage = "A categoria é obrigatório")]
         public required string Categoria { get; set; }
+
+        [Required]
+        public string UnidadeMedida { get; set; } = default!;
+
+        [Required]
+        public double Quantidade { get; set; }
+
+        [Required]
+        public double ValorUnitario { get; set; }
+
     }
 }
