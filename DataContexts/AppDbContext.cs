@@ -34,6 +34,17 @@ namespace eficiencia_rural.DataContexts
                 .WithMany()
                 .HasForeignKey(a => a.fk_id_animal);
 
+            // Piquete
+
+            modelBuilder.Entity<Piquete>()
+            .Property(p => p.fk_id_propriedade)
+            .HasColumnName("fk_id_propriedade");
+
+            modelBuilder.Entity<Piquete>()
+                .HasOne(p => p.Propriedade)
+                .WithMany()
+                .HasForeignKey(p => p.fk_id_propriedade);
+
         }
 
     }

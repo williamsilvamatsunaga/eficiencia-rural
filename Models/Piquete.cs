@@ -8,14 +8,14 @@ namespace eficiencia_rural.Models
         [Column("id_piquete")]
         public int Id { get; set; }
 
-        [Column("nome_pic")]
+        [Column("nome_piq")]
         public string Nome { get; set; }
 
-        [Column("tamanho_pic")]
+        [Column("tamanho_piq")]
         public double Tamanho { get; set; }
 
-        [Column("tipo_pastagem_pic")]
-        public string TipoPastagem { get; set; }
+        [Column("tipo_pastagem_piq")]
+        public string? TipoPastagem { get; set; }
 
         public virtual Propriedade? Propriedade { get; set; }
         [Column("fk_id_propriedade")]

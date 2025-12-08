@@ -1,4 +1,6 @@
 ﻿using eficiencia_rural.DataContexts;
+using eficiencia_rural.Models;
+using eficiencia_rural.Models.Dtos;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -31,17 +33,62 @@ namespace eficiencia_rural.Controllers
                 return Ok(query);
             }
 
-            var piquetes = await query.Select(p => new
-            {
-                p.Id,
-                p.Nome,
-                p.Tamanho,
-                p.TipoPastagem,
-
-            }).ToListAsync();
+            var piquetes = await query
+                .Include(p => p.Propriedade)
+                .Select(c => new
+                {
+                    c.Nome,
+                    c.Tamanho,
+                    c.TipoPastagem,
+                    Propriedade = new { c.Propriedade.Nome }
+                }).ToListAsync();
 
             return Ok(piquetes);
         }
+
+        //
+        [HttpPost]
+        public async Task<IActionResult> Criar([FromBody] PiqueteDto novoPiquete)
+        {
+            var piquete = new Piquete()
+            {
+
+                Nome = novoPiquete.Nome,
+                Tamanho = novoPiquete.Tamanho,
+                TipoPastagem = novoPiquete.TipoPastagem,
+                fk_id_propriedade = novoPiquete.fk_id_propriedade
+            };
+
+            await _context.Piquetes.AddAsync(piquete);
+            await _context.SaveChangesAsync();
+
+            return Created("", piquete);
+        }
+
+        [HttpPut("{id}")]
+        public async Task<IActionResult> Atualizar(int id, [FromBody] PiqueteDto atualizarPiquete)
+        {
+            var piquete = await _context.Piquetes
+                .Include(c => c.Propriedade)       
+                .FirstOrDefaultAsync(x => x.Id == id);
+
+            if (piquete is null)
+            {
+                return NotFound();
+            }
+
+            piquete.Nome = atualizarPiquete.Nome;
+            piquete.Tamanho = atualizarPiquete.Tamanho;
+            piquete.TipoPastagem = atualizarPiquete.TipoPastagem;
+            piquete.fk_id_propriedade = atualizarPiquete.fk_id_propriedade;
+
+            _context.Piquetes.Update(piquete);
+            await _context.SaveChangesAsync();
+
+            return Ok(piquete);
+        }
+
+        //
 
         [HttpDelete("{id}")]
         public async Task<IActionResult> Remover(int id)

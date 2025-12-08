@@ -20,7 +20,7 @@ namespace eficiencia_rural.Models
         [Column("quantidade_ins")]
         public double Quantidade { get; set; }
 
-        [Column("valor_unit_ins")]
+        [Column("valor_unit_ins")] 
         public double ValorUnitario { get; set; }
 
         public ICollection<PropriedadeInsumo> PropriedadesInsumos { get; set; } = [];
