@@ -45,12 +45,11 @@ CREATE TABLE IF NOT EXISTS piquete (
 CREATE TABLE IF NOT EXISTS producao (
     id_producao INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
     valor_unitario_pro DOUBLE NOT NULL,
-    qtd_vacas_pro INT NOT NULL,
     data_hora_inicio_pro DATETIME NOT NULL,
     qtd_litros_pro DOUBLE NOT NULL,
     fk_id_animal INT NOT NULL,
     FOREIGN KEY (fk_id_animal) REFERENCES animal(id_animal)
-);
+); 
 
 CREATE TABLE IF NOT EXISTS propriedade_insumo (
     id_propriedade_insumo INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
@@ -68,7 +67,6 @@ INSERT INTO categoria(nome_cat) VALUES
 ("vaca"),
 ("touro");
 
-select * from categoria;
 
 
 

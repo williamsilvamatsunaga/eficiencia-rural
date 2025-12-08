@@ -105,6 +105,14 @@ namespace eficiencia_rural.Controllers
                 return NotFound();
             }
 
+            bool possuiProducao = await _context.Producoes
+                .AnyAsync(x => x.fk_id_animal == id);
+
+            if (possuiProducao)
+            {
+                return BadRequest("Não foi possível excluir animal, pois existem produções vinculadas!");
+            }
+
             _context.Animais.Remove(animal);
             await _context.SaveChangesAsync();
 
