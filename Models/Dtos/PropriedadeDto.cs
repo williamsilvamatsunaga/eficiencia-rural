@@ -9,9 +9,9 @@ namespace eficiencia_rural.Models.Dtos
         public required string Nome { get; set; }
 
         [Required]
-        public double Tamanho { get; set; }
+        public required double Tamanho { get; set; }
 
         [Required]
-        public string? Endereco { get; set; }
+        public required string? Endereco { get; set; }
     }
 }

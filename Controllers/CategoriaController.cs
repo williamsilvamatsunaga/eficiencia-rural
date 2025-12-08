@@ -38,20 +38,5 @@ namespace eficiencia_rural.Controllers
 
             return Ok(categorias);
         }
-
-        [HttpDelete("{id}")]
-        public async Task<IActionResult> Remover(int id)
-        {
-            var categoria = await _context.Categorias.FirstOrDefaultAsync(x => x.Id == id);
-            if (categoria is null)
-            {
-                return NotFound();
-            }
-
-            _context.Categorias.Remove(categoria);
-            await _context.SaveChangesAsync();
-
-            return NoContent();
-        }
     }
 }

@@ -34,6 +34,7 @@ namespace eficiencia_rural.Controllers
 
             var propriedade = await query.Select(u => new
             {
+                u.Id,
                 u.Nome,
                 u.Tamanho,
                 u.Endereco
@@ -58,13 +59,41 @@ namespace eficiencia_rural.Controllers
             return Created("",propriedade);
         }
 
+        [HttpPut("{id}")]
+        public async Task<IActionResult> Atualizar(int id, [FromBody] PropriedadeDto novaPropriedade)
+        {
+
+            var propriedade = await _context.Propriedades
+                .FirstOrDefaultAsync(x => x.Id == id);
+
+            if (propriedade is null)
+            {
+                return NotFound();
+            }
+
+            propriedade.Nome = novaPropriedade.Nome;
+
+            _context.Propriedades.Update(propriedade);
+            await _context.SaveChangesAsync();
+
+            return Ok(propriedade);
+        }
+
         [HttpDelete("{id}")]
         public async Task<IActionResult> Remover(int id)
         {
             var propriedade = await _context.Propriedades.FirstOrDefaultAsync(x => x.Id == id);
             if (propriedade is null)
             {
-                return NotFound();
+                return NotFound("Propriedade informada não encontrada!");
+            }
+
+            bool possuiAnimais = await _context.Animais
+                .AnyAsync(x => x.fk_id_propriedade == id);
+
+            if (possuiAnimais)
+            {
+                return BadRequest("Não foi possível excluir propriedade, pois existem animais vinculados!");
             }
 
             _context.Propriedades.Remove(propriedade);
