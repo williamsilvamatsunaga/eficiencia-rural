@@ -37,7 +37,7 @@ CREATE TABLE IF NOT EXISTS piquete (
     id_piquete INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
     nome_piq VARCHAR(50) NOT NULL,
     tamanho_piq DOUBLE NOT NULL,
-    tipo_pastagem_piq VARCHAR(1) NOT NULL,
+    tipo_pastagem_piq VARCHAR(50) NOT NULL,
     fk_id_propriedade INT NOT NULL,
     FOREIGN KEY (fk_id_propriedade) REFERENCES propriedade(id_propriedade)
 );

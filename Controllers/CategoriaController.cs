@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace eficiencia_rural.Controllers
 {
-    [Route("categoria")]
+    [Route("categoriaAnimal")]
     [ApiController]
     public class CategoriaController : ControllerBase
     {

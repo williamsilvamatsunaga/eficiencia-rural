@@ -80,7 +80,6 @@ namespace eficiencia_rural.Controllers
             piquete.Nome = atualizarPiquete.Nome;
             piquete.Tamanho = atualizarPiquete.Tamanho;
             piquete.TipoPastagem = atualizarPiquete.TipoPastagem;
-            piquete.fk_id_propriedade = atualizarPiquete.fk_id_propriedade;
 
             _context.Piquetes.Update(piquete);
             await _context.SaveChangesAsync();

@@ -34,6 +34,7 @@ namespace eficiencia_rural.Controllers
 
             var categorias = await query.Select(c => new
             {
+                c.Id,
                 c.Descricao,
                 c.UnidadeMedida,
                 c.Categoria,
@@ -44,7 +45,6 @@ namespace eficiencia_rural.Controllers
             return Ok(categorias);
         }
 
-        //
 
         [HttpPost]
         public async Task<IActionResult> Criar([FromBody] InsumoDto novoInsumo)
