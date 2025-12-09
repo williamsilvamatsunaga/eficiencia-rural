@@ -73,6 +73,26 @@ namespace eficiencia_rural.Controllers
             return Created("", producao);
         }
 
+        [HttpPut("{id}")]
+        public async Task<IActionResult> Atualizar(int id, [FromBody] ProducaoDto atualizarProducao)
+        {
+            var producao = await _context.Producoes
+                .FirstOrDefaultAsync(x => x.Id == id);
+
+            if (producao is null)
+            {
+                return NotFound();
+            }
+
+            producao.QuantidadeLitros = atualizarProducao.QuantidadeLitros;
+            producao.ValorUnitario = atualizarProducao.ValorUnitario;
+
+            _context.Producoes.Update(producao);
+            await _context.SaveChangesAsync();
+
+            return Ok(producao);
+        }
+
         [HttpDelete("{id}")]
         public async Task<IActionResult> Remover(int id)
         {
